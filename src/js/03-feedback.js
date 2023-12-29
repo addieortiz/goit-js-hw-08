@@ -29,6 +29,7 @@ function handleLoad() {
 
 window.addEventListener('load', handleLoad);
 
+// Submit
 function handleSubmit(e) {
   e.preventDefault();
   console.log('Form Data:', formData);
