@@ -38,7 +38,7 @@ function handleSubmit(e) {
   form.reset();
 }
 
-form.addEventListener('submit, handleSubmit');
+form.addEventListener('submit', handleSubmit);
 
 // const form = document.querySelector('.feedback-form');
 // const localStorageKey = 'goit-example-message';
