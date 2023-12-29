@@ -32,6 +32,11 @@ window.addEventListener('load', handleLoad);
 // Submit
 function handleSubmit(e) {
   e.preventDefault();
+  const formData = {
+    email: emailInput.value,
+    message: messageInput.value,
+  };
+
   console.log('Form Data:', formData);
 
   localStorage.removeItem('feedback-form-state');
