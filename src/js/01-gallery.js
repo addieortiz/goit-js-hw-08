@@ -23,13 +23,9 @@ const createGallery = element => {
 const photosList = createGallery(galleryItems);
 galleryList.insertAdjacentHTML('beforeend', photosList);
 
-console.log(galleryItems);
-
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
   nav: true,
   captionPosition: 'bottom',
 });
-
-lightbox.on('show.simplelightbox');
